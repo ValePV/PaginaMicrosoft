@@ -1,0 +1,40 @@
+/*Se llama a body  se coloca en el centro - text-aling sirve para alinear tanto los textos como las imagenes*/
+body{
+	text-align: center;
+}
+/*cuando es un class se llama con un punto*/
+.cuadrado-color{
+/*color puede ser con colores en ingles, colores hexagesimal, color rgb(primer color, segundo color, tercer color)*/
+
+background-color: black; 
+padding-bottom: 30px;
+
+}
+h1 {
+	color: gray;
+	font-family: Pangolin;
+}
+h3{
+	color: gray;
+	font-family: Shadows Into Light Two;
+}
+
+.infomation{}
+h4 {	font-family: Pangolin;
+}
+p {
+	font-family: Shadows Into Light Two;
+}
+
+
+.foto-grupo{
+
+	/*ancho*/
+	width: 1000px;
+	/*alto*/
+	height:400px;
+}
+.enlaces{
+/*linea de division dotter(punteado) dashed(guiones)*/
+	border-top: 20px solid blue;
+}
